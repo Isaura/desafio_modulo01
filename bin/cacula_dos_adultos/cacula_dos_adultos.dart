@@ -3,16 +3,28 @@ import 'dart:io';
 import 'dart:convert';
 
 void solucao(List<int> idades) {
-  idades.sort();
+  //se não tiver de maior dá erro
 
-  // print('${idades}');
+  // int idade = 0;
+  // List<int> idadeAux = [];
+
+  // idades.sort();
+
   // for (var i = 0; i < idades.length; i++) {
-  //   int valor = idades[i];
   //   if (idades[i] == 18) {
-  //     print('${idades[i]}');
-  //   } else {
-  //     print('Cresça e apareça');
+  //     idade = idades[i];
+  //   } else if (idades[i] > 18) {
+  //     idadeAux.add(idades[i]);
+  //     // } else {
+  //     //   print('Cresça e apareça');
   //   }
+  // }
+  // idadeAux.sort();
+
+  // if (idade == 0) {
+  //   print('${idadeAux.first}');
+  // } else {
+  //   print('$idade');
   // }
 }
 

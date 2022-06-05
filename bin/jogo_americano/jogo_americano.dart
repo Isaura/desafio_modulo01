@@ -3,17 +3,28 @@ import 'dart:io';
 import 'dart:convert';
 
 void solucao(List jogadores) {
-  num resultado = 0;
+  int resultado = 0;
+  String goleiro = '';
+
   for (var i = 0; i < jogadores.length; i++) {
-    resultado = resultado + jogadores[i]["numero"];
+    resultado += int.parse(jogadores[i]["numero"].toString());
   }
   print('Resultado: $resultado');
 
-  for (var j = 1; j < resultado; j++) {
-    while (resultado > jogadores.length) {}
-    for (var i = 0; i < jogadores.length; i++) {}
+  if (resultado <= jogadores.length) {
+    for (var i = 0; i < jogadores.length; i++) {
+      goleiro = jogadores[i]['nome'];
+    }
+  } else {
+    for (int i = 0; i < jogadores.length; i++) {
+      goleiro = jogadores[i]['nome'];
+    }
+    int diferenca = resultado % jogadores.length;
+    for (int i = 0; i < diferenca; i++) {
+      goleiro = jogadores[i]['nome'];
+    }
   }
-  print('Goleiro(a): Carina');
+  print('Goleiro(a): $goleiro');
 }
 
 void main() {

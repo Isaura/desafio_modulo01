@@ -3,7 +3,16 @@ import 'dart:io';
 import 'dart:convert';
 
 void solucao(num valorMinimo, num valorMaximo, List jogadores) {
-  //seu codigo
+  print('Valor minimo da mesa: R\$ ${valorMinimo.toStringAsFixed(1)}');
+  print('Valor maximo da mesa: R\$ ${valorMaximo.toStringAsFixed(1)}\n');
+
+  print('Jogadores da mesa:');
+  for (var i = 0; i < jogadores.length; i++) {
+    if (jogadores[i]["valor"] >= valorMinimo &&
+        jogadores[i]["valor"] <= valorMaximo) {
+      print('${jogadores[i]["nome"]}');
+    }
+  }
 }
 
 void main() {
