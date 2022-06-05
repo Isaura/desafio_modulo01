@@ -1,3 +1,4 @@
+# Promoção Namorados
 Para o Dia dos Namorados, uma loja de presentes investiu em tecnologia e fez uma análise de dados, percebendo que mais de 80% dos seus clientes compravam 2 itens nessa época.
 
 Com o objetivo de aumentar o faturamento, essa loja lançou uma promoção, na qual o cliente que comprar pelo menos 3 itens, tem um desconto de 50% no item de menor valor.

@@ -1,3 +1,4 @@
+# Taxímetro
 Se a viagem tiver mais de 10km (quilômetros), cada km adicional (acima de 10) fica mais barato, passando a custar apenas 50 centavos por km. Caso a viagem dure mais de 20 minutos, cada minuto adicional (acima de 20) fica mais barato, passando a custar apenas 30 centavos por minuto.
 
 Você deve implementar o cálculo do valor a ser pago pelo cliente.

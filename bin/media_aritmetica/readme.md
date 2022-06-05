@@ -1,3 +1,4 @@
+# Média Aritmética
  Escreva um algoritmo em Dart que calcule o total acumulado no cofre até agora.
 
  O Algoritmo deve receber o nome e uma lista de valores.
